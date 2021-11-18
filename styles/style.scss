@@ -1,0 +1,118 @@
+body{
+    background-color:lightblue;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+//Menu Superior
+nav{
+    background-color: grey;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav a{
+    color:white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    background-color: blue;
+    padding:5px;
+}
+
+
+
+
+
+
+
+
+.text-container{
+   margin:0 auto;
+   margin-top: 50px;
+}
+
+.img-container{
+    width: 200px;
+    margin-left: 50px;
+  
+}
+
+.img-container img{
+    width:200px;
+}
+
+.tablaaar{
+    width:400px;
+    border: 1px;
+    border-style: solid;
+    margin:0 auto;
+
+}
+
+/*********Selectores por id***********/
+
+#General{
+    background-color:grey
+}
+
+#ImagenPrincipial{
+    background-image: url("../images/imagencentral.png");
+    height:434px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+    #ImagenPrincipial{
+     height:500px;
+    }
+    
+}
+
+#texto {
+    font-size: 60px;
+    color:white;
+    font-weight: bold;
+    background-color: rgba(1, 151, 161, 0.7);
+
+}
+
+#cabecera1{
+    display: flex;
+    margin-top: 50px;
+}
+
+#tablacentral{
+   margin:20px 0px 20px 0px; 
+}
+#textocentral{
+    font-size: 10px;
+}
+
+@media (max-width: 800px) {
+    #textocentral{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    #textocentral{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+/*********Selectores por relacion***********/
