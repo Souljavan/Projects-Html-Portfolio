@@ -27,40 +27,7 @@ nav a:hover{
 }
 
 
-
-
-
-
-
-
-.text-container{
-   margin:0 auto;
-   margin-top: 50px;
-}
-
-.img-container{
-    width: 200px;
-    margin-left: 50px;
-  
-}
-
-.img-container img{
-    width:200px;
-}
-
-.tablaaar{
-    width:400px;
-    border: 1px;
-    border-style: solid;
-    margin:0 auto;
-
-}
-
-/*********Selectores por id***********/
-
-#General{
-    background-color:grey
-}
+//Principal
 
 #ImagenPrincipial{
     background-image: url("../images/imagencentral.png");
@@ -69,14 +36,7 @@ nav a:hover{
     background-size:100% 100%;
     display: flex;
     justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 800px) {
-    #ImagenPrincipial{
-     height:500px;
-    }
-    
+    align-items: center;
 }
 
 #texto {
@@ -84,35 +44,68 @@ nav a:hover{
     color:white;
     font-weight: bold;
     background-color: rgba(1, 151, 161, 0.7);
+    
 
 }
 
-#cabecera1{
+
+#flex{
+    margin:10px 0 20px 0;
     display: flex;
-    margin-top: 50px;
-}
+    flex-wrap: wrap;
 
-#tablacentral{
-   margin:20px 0px 20px 0px; 
-}
-#textocentral{
-    font-size: 10px;
-}
-
-@media (max-width: 800px) {
-    #textocentral{
-        font-size: 12px;
-    }
     
 }
+
+.box{
+    margin:20px 60px 0px 60px;
+    border: 1px;
+    border-style: solid;
+    width: 250px;
+}
+
+.title{
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.imagen{
+    width: 100%;
+  height: auto;
+}
+.textoinferior{
+padding: 3px 5px 3px 5px;
+font-size: 12px;
+}
+
+.buttonleermas{
+    padding: 20px 0px 20px 0px;
+    width: 120px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 @media (max-width: 400px) {
-    #textocentral{
-        font-size: 14px;
+    #texto{
+        font-size: 40px;
     }
     
 }
 
+//Pie de Pagina
+#footer{
+    background-color: chocolate;
+    margin-top: 10px;
+}
+
+#footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
 
 
-/*********Selectores por relacion***********/
+
