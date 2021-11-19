@@ -92,6 +92,15 @@ font-size: 12px;
     #texto{
         font-size: 40px;
     }
+    #ImagenPrincipial{
+        background-image: url("../images/imagencentral.png");
+        height:234px;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
 

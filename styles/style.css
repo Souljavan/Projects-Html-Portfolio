@@ -97,6 +97,21 @@ nav a:hover {
   #texto {
     font-size: 40px;
   }
+  #ImagenPrincipial {
+    background-image: url("../images/imagencentral.png");
+    height: 234px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 #footer {
